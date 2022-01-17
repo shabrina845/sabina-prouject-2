@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration:none;
+}
+
+body h1,h2,h3,h4,h5,h6,p,span,a,input,textarea,button {
+    font-family: 'Rubik', sans-serif;
+}
+/*
+header section code
+*/
+header{
+    width: 100%;
+    padding: 12px 0px;
+    border: bottom 2px solid #eee;
+}
+.contaner{
+    width: 1140px;
+    margin: auto;
+}
+.navher{
+    display:flex;
+    justify-content: space-between;
+}
+.menu ul li{
+list-style:none ;
+display: inline-block;
+margin-left:12px ;
+line-height: 70px;
+}
+/*bannar section css*/
+#banner{
+    width: 100%;
+    padding: 40px 0;
+text-align: center;
+}
+.banner-content h1{
+     font-size: 56px;
+     margin: 16px;
+
+}
+.banner-content span{
+    color: #008aff;
+     
+}
+
+.banner-content p{
+    font-weight: 300;
+    margin-bottom: 32px;
+
+}
+/*about section css*/
+#about{
+    width: 100%;
+    padding: 40px 0px;
+}
+.about_container{
+    display: flex;
+    
+}
+.left, .right{
+    flex-basis:50%;
+}
+.left{
+    text-align:right;
+margin-right: 16px;
+    
+}
+.right{
+    text-align: left;
+    margin-left: 16px;
+    
+}
+.left h3{
+    font-size: 42px; 
+    color: tomato;
+    
+}
+
+.left p{
+    font-weight: 300;
+    line-height: 1.5;
+}
+.right h2{
+    font-size: 42px;
+    color: #3f3d56;
+}
+.service-content{
+    display: flex;
+}
+
+.service-item{
+    background-color: #FDEBED;
+    padding: 10px;
+    margin: 10px;
+}
+.service-item1{
+    background-color:#ECFCF7;
+    padding: 10px;
+    margin: 10px;
+}
+.service-item2{
+    background-color: #FFF2D6;
+    padding: 10px;
+    margin: 10px;
+}
+.service-content{
+    width: 1140px;
+    margin: auto;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.meincontent{
+    text-align: center;
+    background-color: #008AFF;
+    
+}
+.meincontent ul li{
+    list-style: none;
+ display: inline-block;
+ margin: 15px;
+ 
+ 
+}
+.meincontent ul li:hover{
+   
+    transition: 0.75s;
+    transform: scale(1.2);
+
+}
+.meincontent ul li a i{
+height: 40px;
+line-height: 40px;
+width: 40px;
+font-size: 18px;
+background-color:#FF6347;
+border-radius: 100%;
+}
